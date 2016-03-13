@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<p style="120%">Vybrané predmety absolvované počas štúdia na vysokej škole:</p>
+
+<ul>
+{% for org_hash in site.data.sem %}
+{% assign org = org_hash[1] %}
+  <li>
+    {{ org.name }}
+	<ul>
+	{% for meno in org.members %}
+	
+		{% if meno.success == "prvýkrát" %}<li>{{meno.name}}</li>{%endif%}
+
+	{% endfor %}
+	</ul>
+	
+	
+	
+	
+	
+	
+    (Počet predmetov v ročníku: {{ org.members | size }})
+  </li>
+{% endfor %}
+</ul>
