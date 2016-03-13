@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Webove publikovanie"
+title: "Webové publikovanie"
 date: 2016-02-25
+category: blog
 ---
 
-III. Zoznámte sa s Jekyll
+## Začiatok s predmetom webové publikovanie
 
-Pozrite si základné info o Jekyll: Čo je Jekyll: https://jekyllrb.com/docs/home/ 
-Základná adresárová štruktúra: http://jekyllrb.com/docs/structure/
-Pokračujte podľa http://jmcglone.com/guides/github-pages/, časť “Using Jekyll with GitHub Pages” (kroky 7-10) pre vytvorenie základnej Jekyll štruktúry
-Pokračujte v ďalších krokoch tutoriálu pre pochopenie ostatných features Jekyll (kroky 11-17)
-Pozrite si Zadanie 1
+Prvé zadanie z predmetu webové publikovanie bolo vytvoriť si osobnostnú stránku na GitHub Pages.
+Pri tomto zadaní sa využívali technológie _Git + GitHub Pages + Jekyll + Markdown_, pričom bol
+kladený dôraz na využívanie statického generátora Jekyll a jeho templatovacích možností s použitím
+značkovacieho jazyka Markdown.
